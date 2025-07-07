@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "declaration": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "useDefineForClassFields": false,
+      "target": "es6",
+      "sourceMap": true,
+      "outDir": "./dist",
+      "baseUrl": "./"
+    },
+    "ts-node": {
+       "experimentalDecorators": true
+     },
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+  }
+
+  
